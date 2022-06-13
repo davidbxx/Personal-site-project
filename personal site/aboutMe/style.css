@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+nav {
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: pink;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    text-transform: capitalize;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+nav ul li:hover {
+    
+    padding: 10px 20px;
+    background-color: rgb(120, 0, 110);
+    color: #fff;
+    border-radius: 6px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: auto;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: rgb(120, 0, 110);
+    color: #fff;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: rgb(200, 113, 192);
+}
+
+.btn-secondary {
+    border: 1px solid rgb(120, 0, 110);
+    background-color: transparent;
+    color:rgb(120, 0, 110);
+}
+
+.btn-secondary:hover {
+    background-color: transparent;
+    color: rgb(200, 113, 192);
+    border-color: rgb(200, 113, 192);
+}
+
+.leader {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 20px 0;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+}
+
+.leader div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.description {
+    font-size: 28px;
+}
+
+.leader img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.aside {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.aside section h2 {
+    text-transform: capitalize;
+}
+
+.aside section ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 50px;
+}
+
+.contact-me h1 {
+    text-transform: capitalize;
+    font-size: 48px;
+}
